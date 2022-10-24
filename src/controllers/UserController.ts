@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import ErrorHandler from '../utils/ErrorHandler';
 import UserServices from '../services/UserServices';
 
-export default class AnnouncementController {
+export default class UserController {
   private _userServices = new UserServices();
 
   public async getInfoUser(
