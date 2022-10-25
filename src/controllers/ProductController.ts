@@ -20,6 +20,36 @@ export default class ProductController {
     }
   }
 
+  public async getInfoProductTag(
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<any> {
+    try {
+      const { tag } = req.params;
+      const products = await this._productServices.getInfoProductTag(tag);
+
+      return res.status(200).json(products);
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  public async cadastrado(
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<any> {
+    try {
+      const { id } = req.params;
+      const products = await this._productServices.cadastrado(Number(id));
+
+      return res.status(200).json(products);
+    } catch (err) {
+      next(err);
+    }
+  }
+
   public async getAllProduct(
     _req: Request,
     res: Response,
@@ -41,7 +71,7 @@ export default class ProductController {
   ): Promise<any> {
     try {
       const token = req.headers.authorization;
-      const { title, title_anuncio, preco, img, descricao } = req.body;
+      const { title, title_anuncio, preco, img, descricao, user_id } = req.body;
       if (!title || !title_anuncio || !preco || !img || !descricao) {
         throw new ErrorHandler('Preencha todos os campos', 400);
       }
@@ -53,6 +83,7 @@ export default class ProductController {
         img,
         descricao,
         token,
+        user_id
       );
 
       return res.status(201).json(products);

@@ -7,6 +7,7 @@ module.exports = {
       [
         {
           title: 'PlayStation 5 Edição Digital 2022 825GB',
+          tag: 'video games',
           title_anuncio:
             'PlayStation 5 Edição Digital 2022 825GB 1 Controle - Sony com FIFA 23 Lançamento',
           preco: 5000,
@@ -19,6 +20,7 @@ module.exports = {
         },
         {
           title: 'Console Xbox Series X',
+          tag: 'video games',
           title_anuncio: 'Console Xbox Series X 1tb + Controle Sem Fio Preto',
           preco: 5000,
           descricao: `Jogue milhares de títulos de quatro gerações de consoles- 
@@ -33,6 +35,7 @@ module.exports = {
         },
         {
           title: 'God of War Ragnarök',
+          tag: 'video games',
           title_anuncio: 'Jogo God of War Ragnarök, Edição de Lançamento PS4',
           preco: 300,
           descricao: `Aqueles que desafiam o destino
@@ -47,6 +50,7 @@ module.exports = {
         },
         {
           title: 'Sony PlayStation 4 1TB',
+          tag: 'video games',
           title_anuncio: 'Sony PlayStation 4 1TB Standard cor preto onyx',
           preco: 1500,
           descricao: `Com seu console PlayStation 4 você terá entretenimento garantido todos os dias. Sua tecnologia foi criada para colocar novos desafios para jogadores novatos e especialistas. Com o console PlayStation 4, líder mundial de vendas por anos, você poderá desfrutar de horas de jogo e excelente navegabilidade para desfrutar de filmes, séries e conteúdo online.`,
@@ -54,6 +58,7 @@ module.exports = {
         },
         {
           title: 'Console Xbox Series S',
+          tag: 'video games',
           title_anuncio:
             'Console Microsoft Xbox Series S, 512GB, Branco - RRS-00006',
           preco: 2000,
@@ -63,6 +68,7 @@ module.exports = {
 
         {
           title: 'Máquina de Lavar 17kg',
+          tag: 'eletrodomésticos',
           title_anuncio:
             'Máquina de Lavar 17kg Electrolux Essential Care com Cesto Inox, Jet&Clean e Ultra Filter (LED17)',
           preco: 2400,
@@ -71,6 +77,7 @@ module.exports = {
         },
         {
           title: 'Geladeira Panasonic Frost Free 480L',
+          tag: 'eletrodomésticos',
           title_anuncio:
             'Geladeira Panasonic Frost Free 480L A+++ Black Glass - NR-BB71GVFBB',
           preco: 6549,
@@ -79,6 +86,7 @@ module.exports = {
         },
         {
           title: 'Friatdeira Elétrica 2 Cubas',
+          tag: 'eletrodomésticos',
           title_anuncio: 'Friatdeira Elétrica 2 Cubas 10 Litros Stevan Metal',
           preco: 800,
           descricao: `Com esta fritadeira da Fast Máquinas, você terá o complemento perfeito para o seu negócio gastronômico. Poderá preparar pratos em grande volume para servir rapidamente a todos os seus convidados. Assim, você garantirá a saída ágil de cada pedido e fornecerá o melhor serviço aos seus clientes.`,
@@ -86,6 +94,7 @@ module.exports = {
         },
         {
           title: 'Freezer Horizontal Consul',
+          tag: 'eletrodomésticos',
           title_anuncio:
             'Freezer Horizontal Consul 2 portas 534L - CHB53EB 110V',
           preco: 1400,
@@ -94,6 +103,7 @@ module.exports = {
         },
         {
           title: 'Fritadeira Sem Óleo Air Fryer',
+          tag: 'eletrodomésticos',
           title_anuncio:
             'Fritadeira Sem Óleo Air Fryer 3,5L, Mondial, Preto/Inox, 1500W, 127V - AF-30 I',
           preco: 379,
@@ -103,6 +113,7 @@ module.exports = {
 
         {
           title: 'Apple iPhone 13 Pro',
+          tag: 'celulares e smartphones',
           title_anuncio: 'Apple iPhone 13 Pro Max (256 GB) - Azul Sierra',
           preco: 8000,
           descricao: `Tela Super Retina XDR de 6,7 polegadas com ProMotion para uma sensação mais rápida e responsiva
@@ -114,6 +125,7 @@ module.exports = {
         },
         {
           title: 'Smartphone Motorola Moto',
+          tag: 'celulares e smartphones',
           title_anuncio: 'Smartphone Motorola Moto G22 128GB 4GB RAM Verde',
           preco: 1139,
           descricao: `Quad Câmera com sensor de 50 MP + Selfie de 16 MP
@@ -125,6 +137,7 @@ module.exports = {
         },
         {
           title: 'SAMSUNG Tab S6 Lite',
+          tag: 'celulares e smartphones',
           title_anuncio: 'SAMSUNG Tab S6 Lite, SM-P619NZAZZTO, Cinza',
           preco: 2279,
           descricao: `S-Pen, pino ejetor para SIM Card e memória, Cabo USB-C, Carregador de parede Fast Charger 15W
@@ -135,6 +148,7 @@ module.exports = {
         },
         {
           title: 'Apple iPhone 13 (128 GB) ',
+          tag: 'celulares e smartphones',
           title_anuncio: 'Apple iPhone 13 (128 GB) - Luz das estrelas',
           preco: 5000,
           descricao: `
@@ -147,6 +161,7 @@ module.exports = {
         },
         {
           title: 'Smartphone Motorola Edge',
+          tag: 'celulares e smartphones',
           title_anuncio: 'Smartphone Motorola Edge 30 5G 256GB 8GB RAM Grafite',
           preco: 2379,
           descricao: `Foco instantâneo em todos os pixels, OIS e gravação em HDR10
@@ -158,6 +173,7 @@ module.exports = {
         },
         {
           title: 'Smart TV 50" 4K UHD',
+          tag: 'televisões',
           title_anuncio: 'Smart TV 50" 4K UHD Samsung 50BU8000',
           preco: 2000,
           descricao: `Tamanho da tela 50 Polegadas Tecnologia de conectividade USB Marca SAMSUNG Resolução 4K Tipo de alto-falante Soundbar Método de controle Remoto
@@ -168,6 +184,7 @@ module.exports = {
         },
         {
           title: 'Smart TV QLED 55" 4K UHD',
+          tag: 'televisões',
           title_anuncio:
             'Smart TV QLED 55" 4K UHD 55Q60B Samsung com Modo Game, HDR, Wifi, Bluetooth, HDMI, USB, Som em Movimento',
           preco: 3000,
@@ -179,6 +196,7 @@ module.exports = {
         },
         {
           title: 'Smart TV LED PRO 43" Full HD',
+          tag: 'televisões',
           title_anuncio:
             'Smart TV LED PRO 43" Full HD LG 43LM631C0SB, ThinQ AI, 3 HDMI, 2 USB, Wi-Fi, Conversor Digital',
           preco: 1800,
@@ -188,6 +206,7 @@ module.exports = {
         },
         {
           title: 'TCL Qled tv 55” C715',
+          tag: 'televisões',
           title_anuncio: 'TCL Qled tv 55” C715 4k UHD Android TV Dolby Vision',
           preco: 2599,
           descricao: `Quantum Dot: Desfrute da qualidade de imagem com 100% de volume de cor. O Quantum Dot produz um bilhão de cores e tons diferentes para entregar um desempenho de imagem excepcionalmente realista. Combinado com cores HDR 10+, contraste e brilho são otimizados e enquadrados perfeitamente para cada cena.
@@ -196,6 +215,7 @@ module.exports = {
         },
         {
           title: 'PHILIPS Android TV 50" 4K 50PUG7406/78',
+          tag: 'televisões',
           title_anuncio:
             'PHILIPS Android TV 50" 4K 50PUG7406/78, Google Assistant Built-in, Comando de Voz, Dolby Vision/Atmos, VRR/ALLM, Bluetooth 5.0',
           preco: 2100,
@@ -204,6 +224,7 @@ module.exports = {
         },
         {
           title: 'Trator Giant Escavator Até 50Kg',
+          tag: 'brinquedos',
           title_anuncio: 'Trator Giant Escavator Até 50Kg, Roma, Multicor',
           preco: 50,
           descricao: `O caminhão Iveco Tector Expresso traz para a brincadeira todos os detalhes do modelo que roda pelas cidades do Brasil. Acompanha o caminhão vários acessórios.`,
@@ -212,12 +233,14 @@ module.exports = {
         {
           title: 'Jogo Pula Pirata',
           title_anuncio: 'Jogo Pula Pirata, Estrela',
+          tag: 'brinquedos',
           preco: 80,
           descricao: `Recomendações: para 2 jogadores ou mais a partir de 5 anos Objetivo do jogo: conseguir colocar o máximo de espadinhas no baú sem fazer o pirata pular Tempo médio de jogo: 15 minutos Jogue com realidade aumentada: baixe o app gratuito para android ou ios; escaneie o cartão que vem junto com o jogo para jogar no app Contém na embalagem: 1 pirata, 1 barril, 24 espadinhas, Selo de segurança do inmetro: ce-bri/iqb-aj001 nm300/2002`,
           img: 'https://m.media-amazon.com/images/I/61GyIYyB8OL._AC_SX679_.jpg',
         },
         {
           title: 'Barbie Estate, Mega Casa Dos Sonhos, Mattel',
+          tag: 'brinquedos',
           title_anuncio: 'Barbie Estate, Mega Casa',
           preco: 2000,
           descricao: `A Casa dos Sonhos da Barbie de 3 andares (montagem necessária) foi planejada com 3 andares, 8 ambientes, brincadeira em todos os ângulos, um elevador que funciona e piscina com escorregador, a Casa dos Sonhos da Barbie incentiva a imaginação para se divertir nesta casa de bonecas que vira uma verdadeira casa dos sonhos!`,
@@ -225,6 +248,7 @@ module.exports = {
         },
         {
           title: 'Boneco Buzz Lightyear com Som',
+          tag: 'brinquedos',
           title_anuncio:
             'Boneco Buzz Lightyear com Som, Disney-Pixar, Multicor',
           preco: 200,
@@ -233,6 +257,7 @@ module.exports = {
         },
         {
           title: 'Hot Wheels Pacote 10 Carros',
+          tag: 'brinquedos',
           title_anuncio:
             'Hot Wheels Pacote 10 Carros Sortidos Modelo Pode Variar Mattel Multicor',
           preco: 200,

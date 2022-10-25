@@ -8,6 +8,7 @@ class ProductModel extends Model {
   declare preco: number;
   declare descricao: string;
   declare img: string;
+  declare user_id: number;
 }
 
 ProductModel.init(
@@ -22,9 +23,15 @@ ProductModel.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    user_id: {
+      type: DataTypes.INTEGER,
+    },
     title_anuncio: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    tag: {
+      type: DataTypes.STRING,
     },
     preco: {
       type: DataTypes.INTEGER,

@@ -14,6 +14,37 @@ export default class ProductService {
     return userModel;
   }
 
+  async getInfoProductTag(tag: string) {
+    let userModel: any;
+    if (tag === 'todos os departamentos') {
+      userModel = await this.productModel.findAll();
+    } else {
+      userModel = await this.productModel.findAll({ where: { tag } });
+    }
+    const obj: any = {
+      brinquedos: 'https://i.ibb.co/pWfL3Lh/Group-153.png',
+      televisões: 'https://i.ibb.co/SfYbNpf/Group-152.png',
+      eletrodomésticos: 'https://i.ibb.co/HHhYdfX/Group-73.png',
+      'celulares e smartphones': 'https://i.ibb.co/HPr8pxr/search-Recomd.png',
+      'video games': 'https://i.ibb.co/tDx93yB/Group-70.png',
+      'todos os departamentos': 'https://i.ibb.co/tmNHG4P/Group-152.png',
+    };
+
+    if (!userModel) throw new ErrorHandler('Produto não encontrado', 401);
+
+    return { userModel, imgBg: obj[tag] };
+  }
+
+  async cadastrado(id: number) {
+    const userModel = await this.productModel.findAll({
+      where: { user_id: id },
+    });
+
+    if (!userModel) throw new ErrorHandler('Produto não encontrado', 401);
+
+    return userModel;
+  }
+
   async getAllProduct() {
     const userModel: any = await this.productModel.findAll();
 
@@ -38,6 +69,7 @@ export default class ProductService {
     img: string,
     descricao: string,
     token: string | undefined,
+    user_id: number,
   ) {
     this.jwt.verify(token);
     const userModel: any = await this.productModel.create({
@@ -46,6 +78,7 @@ export default class ProductService {
       preco,
       img,
       descricao,
+      user_id,
     });
 
     if (!userModel) throw new ErrorHandler('Erro ao criar', 500);
